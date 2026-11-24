@@ -1,4 +1,4 @@
-# shardflux-dev
+# Shardflux
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-shardflux-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://shardflux.dev/
+Shardflux provides serverless virtual machines for AI agents within products, offering a persistent per‑customer compute instance that is opened by a key, scales to zero when idle, and retains state. The platform enables developers to embed autonomous agents that require reliable, stateful compute without managing lifecycle code, simplifying deployment and reducing operational overhead for AI‑driven applications.
+
+**Areas:** Serverless Compute · AI Agents · GPU Rendering · Developer Tools · Cloud Infrastructure
+
+## Shardflux on APIs.io
+
+Everything profiled for Shardflux is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shardflux-dev/](https://apis.io/providers/shardflux-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (18)
+
+- [Shardflux Billing API](https://apis.io/apis/shardflux-dev/shardflux-dev-billing-api/) — The plan catalog and the organization’s subscription.
+- [Shardflux Browser profiles API](https://apis.io/apis/shardflux-dev/shardflux-dev-browser-profiles-api/) — Write-only browser sessions scoped to a project or workspace.
+- [Shardflux Client versions API](https://apis.io/apis/shardflux-dev/shardflux-dev-client-versions-api/) — The latest and the oldest supported version of every Shardflux client package.
+- [Shardflux Egress policy API](https://apis.io/apis/shardflux-dev/shardflux-dev-egress-policy-api/) — Outbound network policy of a project or a workspace.
+- [Shardflux Entitlements API](https://apis.io/apis/shardflux-dev/shardflux-dev-entitlements-api/) — The limits and features the organization’s plan grants.
+- [Shardflux Feedback API](https://apis.io/apis/shardflux-dev/shardflux-dev-feedback-api/) — Send product feedback straight to the Shardflux team: what failed, confused you or is missing.
+- [Shardflux Operations API](https://apis.io/apis/shardflux-dev/shardflux-dev-operations-api/) — Lifecycle operations (open, suspend, resume, fork, ...) and their progress.
+- [Shardflux Organizations API](https://apis.io/apis/shardflux-dev/shardflux-dev-organizations-api/) — The organization an API key belongs to.
+- [Shardflux Principal API](https://apis.io/apis/shardflux-dev/shardflux-dev-principal-api/) — The API key making the request: its organization, project and tool permissions.
+- [Shardflux Projects API](https://apis.io/apis/shardflux-dev/shardflux-dev-projects-api/) — The project an API key belongs to.
+- [Shardflux Secrets API](https://apis.io/apis/shardflux-dev/shardflux-dev-secrets-api/) — Project secrets, their versions, and the secrets bound to a workspace.
+- [Shardflux Template builds API](https://apis.io/apis/shardflux-dev/shardflux-dev-template-builds-api/) — Build template versions from a recipe or an uploaded context, and look up packages and languages.
+- [Shardflux Template drafts API](https://apis.io/apis/shardflux-dev/shardflux-dev-template-drafts-api/) — Draft templates: iterate on states and test instances, then publish a version.
+- [Shardflux Templates API](https://apis.io/apis/shardflux-dev/shardflux-dev-templates-api/) — Published templates and their versions, files, recipes and diffs.
+- [Shardflux Tool tokens API](https://apis.io/apis/shardflux-dev/shardflux-dev-tool-tokens-api/) — Short-lived tokens for the workspace tools (exec, PTY, files, git, browser) served at the workspace’s cell_endpoint, and agent sessions.
+- [Shardflux Usage and spend API](https://apis.io/apis/shardflux-dev/shardflux-dev-usage-and-spend-api/) — Metered usage, estimates, grants and spend of an organization or a workspace.
+- [Shardflux Volumes API](https://apis.io/apis/shardflux-dev/shardflux-dev-volumes-api/) — Persistent volumes shared between workspaces of a project.
+- [Shardflux Workspaces API](https://apis.io/apis/shardflux-dev/shardflux-dev-workspaces-api/) — Open workspaces by key, and suspend, resume, snapshot, fork, reset or close them.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Shardflux Agentic Access](https://apis.io/agentic-access/shardflux-dev/shardflux-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Operation](https://apis.io/schemas/shardflux-dev/shardflux-dev-operation/)
+- [ResizeResult](https://apis.io/schemas/shardflux-dev/shardflux-dev-resize-result/)
+- [SpendCap](https://apis.io/schemas/shardflux-dev/shardflux-dev-spend-cap/)
+- [Template recipe v2 (shardflux.template-recipe.v2)](https://apis.io/schemas/shardflux-dev/shardflux-dev-template-recipe-v2/)
+- [Volume](https://apis.io/schemas/shardflux-dev/shardflux-dev-volume/)
+- [Workspace](https://apis.io/schemas/shardflux-dev/shardflux-dev-workspace/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shardflux Dev Context](https://apis.io/jsonld/shardflux-dev/shardflux-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Shardflux API Rules](https://apis.io/rules/shardflux-dev/shardflux-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shardflux Authentication](https://apis.io/security/shardflux-dev/shardflux-dev-authentication/)
+- [Shardflux Domain Security](https://apis.io/security/shardflux-dev/shardflux-dev-domain-security/)
+- [Shardflux Vulnerability Disclosure](https://apis.io/security/shardflux-dev/shardflux-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shardflux Plans Pricing](https://apis.io/plans/shardflux-dev/shardflux-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://shardflux.dev/)
+- [Documentation](https://docs.shardflux.dev/)
+- [Getting started](https://docs.shardflux.dev/quickstart)
+- [API reference](https://docs.shardflux.dev/reference/cli)
+- [Support](https://shardflux.dev/security)
+- [Security](https://shardflux.dev/security)
+- [Terms of service](https://shardflux.dev/terms)
+- [Privacy policy](https://shardflux.dev/privacy)
+- [GitHub](https://github.com/shardfluxdev)
+
+## API Evangelist rating
+
+**Kin Score 56.6** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 60.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 40.0 |
+
+**Agent readiness 54.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shardflux-dev/](https://apis.io/providers/shardflux-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shardflux: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shardflux-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
